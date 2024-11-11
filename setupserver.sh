@@ -21,7 +21,7 @@ sudo mkdir -p /var/www
 cd /var/www
 sudo git clone https://github.com/Muhammadalgazali/expose.git
 cd expose
-sudo mysql -u gazali -pgazali db_tracking < database.sql
+sudo mysql -u gazali -p gazali db_tracking < database.sql
 
 # Configure Nginx
 echo "Configuring Nginx..."
